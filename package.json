@@ -1,0 +1,22 @@
+{
+  "name": "uld_and_cargo_build_up_app",
+  "version": "1.0.0",
+  "description": "cargo build-up, stack pallet and cargo invertory",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "server":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/confiuche/ULD-API.git"
+  },
+  "author": "DUC",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.2",
+    "nodemon": "^2.0.22"
+  }
+}
