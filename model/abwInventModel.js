@@ -27,9 +27,9 @@ const awbInventSchema = new mongoose.Schema(
             ref:"User",
             required:[true,""]
         },
-        build_up:{
+        cargoBuildUp:{
             type:mongoose.Schema.Types.ObjectId,
-            ref:"Buildup",
+            ref:"CargoBuildUp",
             required:[true,""]
         }
     },
