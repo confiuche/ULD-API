@@ -11,6 +11,6 @@ dotenv.config();
 
 const PORT = process.env.PORT || 8080
 
-app.use("/api/v1/users", userRoute)
+app.use("/api/v1/uldcb/users", userRoute)
 
 app.listen (PORT, console.log(`Server started at ${PORT}`))
